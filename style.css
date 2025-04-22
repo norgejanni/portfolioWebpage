@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #ffcccb; /* Light pink accent color */
+}
+
+a {
+    color: #ffcccb; /* Light pink links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section#home {
+    background-color: #1f1f1f; /* Slightly lighter dark background */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #888;
+    font-size: 14px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
