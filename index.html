@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Portfolio Janet</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">YourName</div>
+            <div class="logo"><span class="logo-icon">~/</span>Janet</div>
             <button class="menu-toggle">☰</button>
             <ul id="menu">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -22,59 +22,171 @@
 
     <section id="home">
         <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi! I'm a passionate developer creating meaningful digital experiences. Explore my work and let's connect.</p>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm a creative developer with expertise in web development and design. With a passion for building responsive, user-friendly applications, I strive to create solutions that make a difference.</p>
-            <p>My journey in tech began several years ago, and I've been continuously learning and growing ever since. I believe in clean code, thoughtful design, and creating accessible experiences for all users.</p>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>My Projects</h2>
-            <p>Here's a selection of my recent work. Each project represents my commitment to quality and innovation.</p>
+            <h1>System Administrator & Linux Enthusiast</h1>
+            <p>Passionate about network infrastructure, server management, and the endless possibilities of open-source software.</p>
             
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">Project Image Placeholder</div>
-                    <div class="project-details">
-                        <h3>Project One</h3>
-                        <p>A brief description of this project and the technologies used.</p>
-                        <a href="#">View Project</a>
+            <div class="terminal-box">
+                <div class="terminal-header">
+                    <div class="terminal-buttons">
+                        <div class="terminal-button red"></div>
+                        <div class="terminal-button yellow"></div>
+                        <div class="terminal-button green"></div>
                     </div>
+                    <div class="terminal-title">bash ~ archLinux</div>
                 </div>
-                
-                <div class="project-card">
-                    <div class="project-image">Project Image Placeholder</div>
-                    <div class="project-details">
-                        <h3>Project Two</h3>
-                        <p>A brief description of this project and the technologies used.</p>
-                        <a href="#">View Project</a>
+                <div class="terminal-body">
+                    <div class="command-line">
+                        <span class="prompt">[janet@archLinux ~]$</span> neofetch
                     </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-image">Project Image Placeholder</div>
-                    <div class="project-details">
-                        <h3>Project Three</h3>
-                        <p>A brief description of this project and the technologies used.</p>
-                        <a href="#">View Project</a>
+                    <div class="command-output">
+                        <pre>                   -`
+                  .o+`
+                 `ooo/                OS: Arch Linux x86_64
+                `+oooo:               Host: ThinkPad X1 Carbon 6th
+               `+oooooo:              Kernel: Linux 6.14.3-arch1-1
+               -+oooooo+:             Uptime: Always exploring
+             `/:-:++oooo+:            Packages: Sysadmin tools
+            `/++++/+++++++:           Shell: bash
+           `/++++++++++++++:          DE: Knowledge
+          `/+++ooooooooooooo/`        WM: Experience
+         ./ooosssso++osssssso+`       Theme: Pink Frosting
+        .oossssso-````/ossssss+`      Skills: Network, Linux, Servers
+       -osssssso.      :ssssssso.     
+      :osssssss/        osssso+++.    
+     /ossssssss/        +ssssooo/-    
+   `/ossssso+/:-        -:/+osssso+-  
+  `+sso+:-`                 `.-/+oso: 
+ `++:.                           `-/+/
+ .`                                 `</pre>
+                    </div>
+                    <div class="command-line">
+                        <span class="prompt">[janet@archLinux ~]$</span> <span class="cursor"></span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="skills">
+        <div class="container">
+            <h2>Professional Skills</h2>
+            <p>My technical expertise focuses on system administration, networking, and open-source technologies.</p>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>System Administration</h3>
+                    <ul class="skills-list">
+                        <li>Windows Server 2019 (Active Directory, DNS, WDS)</li>
+                        <li>Linux server management (Debian, Ubuntu, CentOS)</li>
+                        <li>Proxmox Virtual Environment</li>
+                        <li>Server deployment and maintenance</li>
+                        <li>System monitoring and troubleshooting</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Networking</h3>
+                    <ul class="skills-list">
+                        <li>Network design and implementation</li>
+                        <li>LAN/WAN configuration</li>
+                        <li>Network security and protocols</li>
+                        <li>Firewall configuration</li>
+                        <li>VPN setup and management</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Linux Expertise</h3>
+                    <ul class="skills-list">
+                        <li>Arch Linux (daily driver)</li>
+                        <li>Shell scripting (Bash, ZSH)</li>
+                        <li>Package management systems</li>
+                        <li>Custom kernel configuration</li>
+                        <li>System hardening and security</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I've worked on that demonstrate my technical capabilities.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🖧</div>
+                    <div class="project-details">
+                        <h3>Lab Network Infrastructure</h3>
+                        <p>Designed and implemented a complete network infrastructure in a lab environment, including VLAN configuration, subnetting, and security measures.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Cisco</span>
+                            <span class="tech-tag">VLAN</span>
+                            <span class="tech-tag">Routing</span>
+                            <span class="tech-tag">Subnetting</span>
+                        </div>
+                        <p><strong>Role:</strong> Network Administrator</p>
+                        <p><strong>Challenge:</strong> Ensuring proper network segmentation while maintaining ease of management. Solved by implementing a hierarchical design with clear documentation.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">🖥️</div>
+                    <div class="project-details">
+                        <h3>Windows Server Environment</h3>
+                        <p>Set up a complete Windows Server 2019 environment with Active Directory, DNS, and Windows Deployment Services for client management.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Windows Server</span>
+                            <span class="tech-tag">Active Directory</span>
+                            <span class="tech-tag">DNS</span>
+                            <span class="tech-tag">WDS</span>
+                        </div>
+                        <p><strong>Role:</strong> System Administrator</p>
+                        <p><strong>Challenge:</strong> Creating efficient deployment workflows for client machines. Overcame by developing custom WDS images and automation scripts.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">📦</div>
+                    <div class="project-details">
+                        <h3>Proxmox Virtualization Cluster</h3>
+                        <p>Configured and maintained a Proxmox virtualization environment for hosting various services and testing environments.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Proxmox</span>
+                            <span class="tech-tag">KVM</span>
+                            <span class="tech-tag">LXC</span>
+                            <span class="tech-tag">ZFS</span>
+                        </div>
+                        <p><strong>Role:</strong> Virtualization Engineer</p>
+                        <p><strong>Challenge:</strong> Optimizing resource allocation between containers and VMs. Resolved by implementing resource monitoring and fine-tuning allocation policies.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">🐧</div>
+                    <div class="project-details">
+                        <h3>Custom Arch Linux Configuration</h3>
+                        <p>Developed a personalized Arch Linux system with custom kernel parameters, optimized for performance and security.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Arch Linux</span>
+                            <span class="tech-tag">Linux Kernel</span>
+                            <span class="tech-tag">Shell Scripting</span>
+                            <span class="tech-tag">System Hardening</span>
+                        </div>
+                        <p><strong>Role:</strong> Linux Administrator</p>
+                        <p><strong>Challenge:</strong> Balancing system security with usability needs. Overcame by implementing targeted security measures while preserving functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section id="contact">
         <div class="container">
             <h2>Contact Me</h2>
-            <p>Interested in working together? Feel free to reach out!</p>
+            <p>Interested in discussing system administration or Linux solutions? Feel free to reach out!</p>
             
             <div class="contact-form">
                 <div class="form-group">
@@ -98,7 +210,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Janet Maurice Götze. All rights reserved.</p>
     </footer>
 
     <script>
